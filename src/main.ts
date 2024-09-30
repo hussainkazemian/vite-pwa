@@ -46,7 +46,7 @@ const login = async (): Promise<LoginUser> => {
     const options: RequestInit = {
       method: 'POST',
       headers: {
-        'COntent-Type': 'application/json',
+        'Content-Type': 'application/json',
 
       },
       body: JSON.stringify(data),
